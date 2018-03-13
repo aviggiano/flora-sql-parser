@@ -521,7 +521,7 @@ arithmetic_op_right
     }
 
 arithmetic_comparison_operator
-  = ">=" / ">" / "<=" / "<>" / "<" / "=" / "!="
+  = "gte" / "gt" / "lte" / "ne" / "lt" / "eq"
 
 is_op_right
   = KW_IS __ right:additive_expr {
